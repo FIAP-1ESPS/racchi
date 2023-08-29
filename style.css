@@ -9,7 +9,7 @@
 nav {
   width: 100%;
   display: flex;
-  /* justify-content: center; */
+  /* flex-direction: row; */
   justify-content: space-around;
   align-items: center;
 
@@ -28,6 +28,6 @@ nav img {
   width: 4rem;
 }
 
-nav ul li {
+/* nav ul li {
   padding: 0 1rem;
-}
+} */
