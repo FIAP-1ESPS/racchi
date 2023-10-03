@@ -6,6 +6,12 @@
   box-sizing: border-box;
 }
 
+.flex-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 nav {
   width: 100%;
   display: flex;
@@ -40,7 +46,7 @@ section#banner {
   background-color: #EFF8FF;
 }
 
-section#banner div h1, p {
+section#banner div h1, section#banner div p {
   font-size: 3rem;
   font-family: "Sora", sans-serif, Arial;
   font-weight: 500;
@@ -117,4 +123,29 @@ div.card-about p {
   font-family: "Inter", sans-serif, Arial;
   font-weight: 300;
   text-align: center;
+}
+
+section#download-app {
+  display: flex;
+}
+
+div#links-download-app {
+  display: flex;  
+  gap: 1rem;
+}
+
+.link-download-app {
+  background-color: #293145;
+  color: #fff;
+  text-decoration: none;
+  padding: 1rem 2rem;
+  border-radius: 0.8rem;
+  font-family: "Inter", sans-serif, Arial;
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.link-download-app p {
+  font-size: 2rem;
+  font-weight: 600;
 }
